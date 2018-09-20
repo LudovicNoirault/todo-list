@@ -8,10 +8,12 @@
     "react-flip-move": "^3.0.2",
     "react-scripts": "1.1.5"
   },
+  "homepage":"https://ludovicnoirault.github.io/todo-list",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "react-scripts build && gh-pages -d build"
   }
 }
